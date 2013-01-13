@@ -1,0 +1,1 @@
+A generic editor. Does not do much yet.

@@ -1,0 +1,26 @@
+{
+  "name": "editor",
+  "description": "Generic Editor. Unfinished",
+  "version": "0.0.1",
+  "author": "Ewoud van den Boom <ewoudj@gmail.com>",
+  "contributors": [ 
+    { "name": "Ewoud van den Boom", "email": "ewoudj@gmail.com" }
+  ],
+  "keywords": ["editor"],
+  "repository" : { 
+    "type" : "git"
+  , "url" : "git://github.com/ewoudj/editor.git"
+  },
+  "main": "server.js",
+  "engines": { "node": ">= 0.4.1" },
+  "dependencies": {
+  	"connect": "*",
+    "share": "*",
+    "authom": "git://github.com/ewoudj/authom.git#master",
+    "mongojs": "*"
+  },
+  "licenses" : [ { "type" : "MIT"
+    , "url" : "http://github.com/ewoudj/editor/raw/master/LICENSE"
+    }
+  ]
+}
